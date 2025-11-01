@@ -4,5 +4,4 @@ from actors.models import Actor
 
 @admin.register(Actor)
 class ActorAdmin(admin.ModelAdmin):
-    fields = ('name',)
-
+    fields = ('name', 'nationality', 'date_of_birth')
